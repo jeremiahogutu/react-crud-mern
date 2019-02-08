@@ -23,5 +23,19 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "react crud with mongo db backend",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremiahogutu/react-crud-mern.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremiahogutu/react-crud-mern/issues"
+  },
+  "homepage": "https://github.com/jeremiahogutu/react-crud-mern#readme"
 }
