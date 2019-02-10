@@ -29,6 +29,7 @@ postRoutes.route('/').get(function (req, res) {
 // get edit route
 postRoutes.route('/edit/id').get(function (req, res) {
     let id = req.params.id;
+    console.log(id);
     Post.findById(id, function (err, post) {
         res.json(post)
     })
